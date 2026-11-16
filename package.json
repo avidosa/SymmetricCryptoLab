@@ -1,0 +1,12 @@
+{
+  "name": "symmetric-crypto-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "demo:hamming": "node demo.js hamming",
+    "demo:cbc": "node demo.js cbc",
+    "demo:manipulacion": "node demo.js manipulacion",
+    "benchmark": "node benchmark.js"
+  }
+}
